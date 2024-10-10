@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+  --font-title: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-text: "Nunito", sans-serif;
+  --size-text: 0.875rem;
+  --size-title: 1rem;
+  --size-subtitles: 1.375rem;
+  /* --size-title-section: 1.375rem; */
+  --size-desktop-section: 2rem;
+  --size-desktop: 3.25rem;
+  --bg-color: #072448;
+  --bg-secundary: #314661;
+  --bg-terciary:#31466164;
+  --color-primary: #ffcc00;
+  --color-secundary: #f8aa4b;
+  --color-terciary: #54d2d2;
+  --color-quaternary: #f16744;
+  --spacing-mobil: 1rem;
+  --spacing-tablet: 2rem;
+  --spacing-desktop: 1rem 9.5rem;
+}
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    list-style: none;
+    background-color: #072448;
+}
+.thanks{
+  margin: 2rem;
+  text-align: center;
+  color: var(--color-primary);
+  font-family: var(--font-title);
+}
+
+footer{
+  padding: 2rem 0;
+  text-align: center;
+  font-family: var(--font-title);
+  color: var(--color-primary);
+  background-color: var(--bg-terciary);
+}
