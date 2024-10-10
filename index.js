@@ -30,6 +30,6 @@ counter()
 // partialUrl: parte de la URL actual que deseas verificar (puede ser la ruta o una parte del dominio)
 // targetUrl: la URL a la que deseas redirigir
 // delay: tiempo de espera en milisegundos (ej. 3000ms = 3 segundos)
-redirectToPage('thanks', 'https://tuliobast-portfolio.netlify.app/', 5000);
+redirectToPage('thanks', 'https://tuliobast.github.io/portfolio/', 5000);
 
 
